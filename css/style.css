@@ -34,8 +34,11 @@ body{
     text-align: center;
     background-color: white;
     border-radius: 5px;
-    transform: scale(0);
+    /* transform: scale(0); */
     transition: .2s;
+}
+.container .img:last-child .box{
+    padding-top: 340px;
 }
 .box h3, p, del, h2{
     margin: 0 30px;
