@@ -54,6 +54,7 @@ body{
 .box del{
     font-size: 18px;
     opacity: 0.4;
+    text-decoration: line-through;
 }
 .box button{
     width: 100%;
