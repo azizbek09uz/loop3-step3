@@ -30,7 +30,7 @@ body{
     cursor: pointer;
 }
 .box{
-    padding-top: 320px;
+    padding-top: 300px;
     text-align: center;
     background-color: white;
     border-radius: 5px;
@@ -38,7 +38,7 @@ body{
     transition: .2s;
 }
 .container .img:last-child .box{
-    padding-top: 340px;
+    padding-top: 323px;
 }
 .box h3, p, del, h2{
     margin: 0 30px;
