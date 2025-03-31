@@ -76,6 +76,9 @@ body{
 img:hover + .box{
     transform: scale(1);
 }
+img + .box:hover{
+    transform: scale(1);
+}
 
 
 img{
