@@ -21,6 +21,7 @@ body{
     gap: 50px;
     justify-content: space-between;
     margin: 100px;
+    overflow: hidden;
 }
 .img{
     display: flex;
@@ -68,6 +69,12 @@ body{
     font-weight: 600;
     border-radius: 0 0 5px 5px;
     margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.box button:active{
+    transform: translatey(10px);
 }
 .container .box:last-child h2{
     margin: 0 90px;
