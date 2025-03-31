@@ -21,7 +21,7 @@ body{
     gap: 50px;
     justify-content: space-between;
     margin: 100px;
-    overflow: hidden;
+
 }
 .img{
     display: flex;
@@ -37,6 +37,7 @@ body{
     border-radius: 5px;
     transform: scale(0);
     transition: .2s;
+    overflow: hidden;
 }
 .container .img:last-child .box{
     padding-top: 323px;
